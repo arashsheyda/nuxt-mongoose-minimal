@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "1.0.0",
+    "@nuxt/devtools-ui-kit": "^1.0.0",
     "nuxt": "^3.7.4",
     "nuxt-mongoose": "^1.0.2"
   }

@@ -8,6 +8,9 @@ devDependencies:
   '@nuxt/devtools':
     specifier: 1.0.0
     version: 1.0.0(nuxt@3.7.4)(vite@4.5.0)
+  '@nuxt/devtools-ui-kit':
+    specifier: ^1.0.0
+    version: 1.0.0(@nuxt/devtools@1.0.0)(nuxt@3.7.4)(postcss@8.4.31)(vite@4.5.0)(vue@3.3.4)(webpack@5.89.0)
   nuxt:
     specifier: ^3.7.4
     version: 3.7.4
@@ -1082,6 +1085,56 @@ packages:
       '@vueuse/nuxt': 10.5.0(nuxt@3.7.4)(vue@3.3.4)
       defu: 6.1.2
       focus-trap: 7.5.4
+      unocss: 0.56.5(@unocss/webpack@0.56.5)(postcss@8.4.31)(vite@4.5.0)
+      v-lazy-show: 0.2.3
+    transitivePeerDependencies:
+      - '@unocss/webpack'
+      - '@vue/composition-api'
+      - async-validator
+      - axios
+      - change-case
+      - drauu
+      - fuse.js
+      - idb-keyval
+      - jwt-decode
+      - nprogress
+      - nuxt
+      - postcss
+      - qrcode
+      - rollup
+      - sortablejs
+      - supports-color
+      - universal-cookie
+      - vite
+      - vue
+      - webpack
+    dev: true
+
+  /@nuxt/devtools-ui-kit@1.0.0(@nuxt/devtools@1.0.0)(nuxt@3.7.4)(postcss@8.4.31)(vite@4.5.0)(vue@3.3.4)(webpack@5.89.0):
+    resolution: {integrity: sha512-uAIF9+8yYiMd/Fqh2KOqCX1ndqZWoFk9GQ9HQyY38BTVlttFk6c/GeCWKi5GaK93YzckJRfDOGhK/PcQmCNzIQ==}
+    peerDependencies:
+      '@nuxt/devtools': 1.0.0
+    dependencies:
+      '@iconify-json/carbon': 1.1.21
+      '@iconify-json/logos': 1.1.37
+      '@iconify-json/ri': 1.1.12
+      '@iconify-json/tabler': 1.1.95
+      '@nuxt/devtools': 1.0.0(nuxt@3.7.4)(vite@4.5.0)
+      '@nuxt/devtools-kit': 1.0.0(nuxt@3.7.4)(vite@4.5.0)
+      '@nuxt/kit': 3.7.4
+      '@nuxtjs/color-mode': 3.3.0
+      '@unocss/core': 0.56.5
+      '@unocss/nuxt': 0.56.5(postcss@8.4.31)(vite@4.5.0)(webpack@5.89.0)
+      '@unocss/preset-attributify': 0.56.5
+      '@unocss/preset-icons': 0.56.5
+      '@unocss/preset-mini': 0.56.5
+      '@unocss/reset': 0.56.5
+      '@vueuse/core': 10.5.0(vue@3.3.4)
+      '@vueuse/integrations': 10.5.0(focus-trap@7.5.4)(vue@3.3.4)
+      '@vueuse/nuxt': 10.5.0(nuxt@3.7.4)(vue@3.3.4)
+      defu: 6.1.2
+      focus-trap: 7.5.4
+      splitpanes: 3.1.5
       unocss: 0.56.5(@unocss/webpack@0.56.5)(postcss@8.4.31)(vite@4.5.0)
       v-lazy-show: 0.2.3
     transitivePeerDependencies:
@@ -6286,6 +6339,10 @@ packages:
 
   /spdx-license-ids@3.0.16:
     resolution: {integrity: sha512-eWN+LnM3GR6gPu35WxNgbGl8rmY1AEmoMDvL/QD6zYmPWgywxWqJWNdLGT+ke8dKNWrcYgYjPpG5gbTfghP8rw==}
+    dev: true
+
+  /splitpanes@3.1.5:
+    resolution: {integrity: sha512-r3Mq2ITFQ5a2VXLOy4/Sb2Ptp7OfEO8YIbhVJqJXoFc9hc5nTXXkCvtVDjIGbvC0vdE7tse+xTM9BMjsszP6bw==}
     dev: true
 
   /ssri@10.0.5:
